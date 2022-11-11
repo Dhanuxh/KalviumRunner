@@ -1,0 +1,58 @@
+#score { text-align: center; }
+
+#game {
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  background-image: url("https://i.redd.it/7zz7wq0wv8e21.png");
+  background-size: cover;
+}
+
+#dino {
+  height: 75px;
+  width: 75px;
+  top: 225px;
+  position: relative;
+  background-image: url("https://i.pinimg.com/originals/6d/d2/1f/6dd21fb057ae478ec876bc3968b00941.gif");
+  background-size: cover;
+}
+
+#rock {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 175px;
+  left: 550px;
+  background-image: url("https://kalvium.community/images/logo_min.svg");
+  background-size: cover;
+  animation: rock 1.33s infinite;
+}
+*{
+    background-image: url("https://kalvium.community/images/logo_min.svg");
+    color: rgb(0, 0, 0);
+}
+
+@keyframes rock {
+  0%{left: 550px;}
+  100%{left: -50px;}
+}
+
+.jump-animation {
+  animation: jump 0.5s;
+}
+
+@keyframes jump {
+  0%{top: 225px;}
+  50%{top: 75px;}
+  75%{top: 75px;}
+  100%{top: 225px;}
+}
+/* background-image: url(https://i.pinimg.com/originals/6d/d2/1f/6dd21fb057ae478ec876bc3968b00941.gif);
+
+
+
+    background-image: url(https://kalvium.community/images/logo_min.svg);
+   
+
+} */
